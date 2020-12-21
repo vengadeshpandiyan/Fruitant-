@@ -94,6 +94,7 @@
     }
 }
 .fresh__fruits{
+    margin: 50px auto;
     .freshfruits__left{
         h6{
             color: #5d6b71;
@@ -110,14 +111,137 @@
             color: #5d6b71;
             margin: 30px 0px;
         }
-        .button__div{
+        .readmore{
             font-size: 16px;
             color: #fff;
             text-align: center;
             padding: 10px 30px;
             border-radius: 4px;
             margin-right: 5px;
-            border: 0px;            
+            border: 0px;  
+            background:#009f4d;
+            border: 2px solid #009f4d;
+            &:hover{
+                background-color: #027d3e;
+                border: 2px solid #027d3e;
+                transition-duration: 0.8s;
+            }
         }
     }
 }
+.fruitant__market{
+    padding: 70px 0;
+    background: #f8f9fa;
+    .fruitantmarket__left{
+        h1{
+            font-size: 32px;
+            margin: 10px 0;
+            line-height: 40px;
+        }
+        p{
+            color: #5d6b71;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .button__div{
+            margin-top: 40px;
+            .knowmore{
+                font-size: 16px;
+                color: #fff;
+                text-align: center;
+                padding: 10px 30px;
+                border-radius: 4px;
+                margin-right: 5px;
+                border: 0px;  
+                background:#009f4d;
+                border: 2px solid #009f4d;
+                &:hover{
+                    background-color: #027d3e;
+                    border: 2px solid #027d3e;
+                    transition-duration: 0.8s;
+                }
+            }
+        }
+
+    }
+    .fruitantmarket__right{
+        a{
+            text-decoration: none;
+        }
+        .card__div{
+            width: 100%;
+            margin: auto;
+            margin: 14px auto;
+            .cards{
+                background-color: white;
+                border: 1px solid transparent;
+                padding: 32px 30px;
+                border-radius: 5px;
+                &:hover{
+                    border:1px solid #009f4d;
+                    text-decoration: none;
+                    transition-duration: 0.5s;
+                    .cardsicon{
+                        background-color: #009f4d;
+                        color: white;
+                    }
+            }
+            h4{
+                font-size: 22px;
+                color: black;
+                line-height: 30px;
+            }
+            p{
+                font-size: 15px;
+                color: #5d6b71;
+                line-height: 24px;
+            }
+            }
+            .cardsicon{
+                    background: #dfe1e3;
+                    color: white;
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 25px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center; 
+                    margin-top: 30px;                   
+                }
+               
+            }
+        }
+    }
+    .fruitant__company{
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        p{
+            margin: 15px auto;
+            width: 70%;
+            color: #5d6b71;
+            font-size: 16px;
+        }
+        img{
+            width: 100%;
+        }
+    }
+.subscribe{
+    background-color: #f8f9fa;
+    .sub{
+        padding: 70px auto;
+       text-align: center;
+       p{
+        margin: 15px auto;
+        width: 70%;
+        color: #5d6b71;
+        font-size: 16px;
+           
+       }
+       .inputbox{
+           
+       }
+    }
+}
+
+

@@ -109,6 +109,10 @@
   margin: 20px 10px;
 }
 
+.fresh__fruits {
+  margin: 50px auto;
+}
+
 .fresh__fruits .freshfruits__left h6 {
   color: #5d6b71;
   font-style: italic;
@@ -127,7 +131,7 @@
   margin: 30px 0px;
 }
 
-.fresh__fruits .freshfruits__left .button__div {
+.fresh__fruits .freshfruits__left .readmore {
   font-size: 16px;
   color: #fff;
   text-align: center;
@@ -135,5 +139,146 @@
   border-radius: 4px;
   margin-right: 5px;
   border: 0px;
+  background: #009f4d;
+  border: 2px solid #009f4d;
+}
+
+.fresh__fruits .freshfruits__left .readmore:hover {
+  background-color: #027d3e;
+  border: 2px solid #027d3e;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.fruitant__market {
+  padding: 70px 0;
+  background: #f8f9fa;
+}
+
+.fruitant__market .fruitantmarket__left h1 {
+  font-size: 32px;
+  margin: 10px 0;
+  line-height: 40px;
+}
+
+.fruitant__market .fruitantmarket__left p {
+  color: #5d6b71;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.fruitant__market .fruitantmarket__left .button__div {
+  margin-top: 40px;
+}
+
+.fruitant__market .fruitantmarket__left .button__div .knowmore {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 4px;
+  margin-right: 5px;
+  border: 0px;
+  background: #009f4d;
+  border: 2px solid #009f4d;
+}
+
+.fruitant__market .fruitantmarket__left .button__div .knowmore:hover {
+  background-color: #027d3e;
+  border: 2px solid #027d3e;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.fruitant__market .fruitantmarket__right a {
+  text-decoration: none;
+}
+
+.fruitant__market .fruitantmarket__right .card__div {
+  width: 100%;
+  margin: auto;
+  margin: 14px auto;
+}
+
+.fruitant__market .fruitantmarket__right .card__div .cards {
+  background-color: white;
+  border: 1px solid transparent;
+  padding: 32px 30px;
+  border-radius: 5px;
+}
+
+.fruitant__market .fruitantmarket__right .card__div .cards:hover {
+  border: 1px solid #009f4d;
+  text-decoration: none;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.fruitant__market .fruitantmarket__right .card__div .cards:hover .cardsicon {
+  background-color: #009f4d;
+  color: white;
+}
+
+.fruitant__market .fruitantmarket__right .card__div .cards h4 {
+  font-size: 22px;
+  color: black;
+  line-height: 30px;
+}
+
+.fruitant__market .fruitantmarket__right .card__div .cards p {
+  font-size: 15px;
+  color: #5d6b71;
+  line-height: 24px;
+}
+
+.fruitant__market .fruitantmarket__right .card__div .cardsicon {
+  background: #dfe1e3;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.fruitant__company {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.fruitant__company p {
+  margin: 15px auto;
+  width: 70%;
+  color: #5d6b71;
+  font-size: 16px;
+}
+
+.fruitant__company img {
+  width: 100%;
+}
+
+.subscribe {
+  background-color: #f8f9fa;
+}
+
+.subscribe .sub {
+  padding: 70px auto;
+  text-align: center;
+}
+
+.subscribe .sub p {
+  margin: 15px auto;
+  width: 70%;
+  color: #5d6b71;
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */

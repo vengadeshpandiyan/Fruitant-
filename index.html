@@ -75,34 +75,28 @@
         </div>
 
     </section>
-    <section class="container fruitant__market">
-        <div class="row">
-            <div class="fruitantmarket__left col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                <h1>Fruitant market - Fruits, Vegetables & organic foods</h1>
-                <p>Curabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est. Quisque ut lectus consequat, venenatis eros et, commodo risus. Nullam sit amet laoreet elit. Suspendisse non magna a velit imperdiet efficitur. Morbi faucibus egestas velit sed ultricies. Ut sollicitudin sollicitudin urna, vel blandit est viverra in. Aenean a rutrum magna. Donec suscipit vulputate fermentum. Vestibulum ac metus in mi rutrum laoreet.</p>
-
-                <p>In non nisi quis metus tempor efficitur a ut odio. Phasellus posuere tellus in interdum venenatis. Curabitur aliquam quam dictum est vestibulum aliquet, viverra in. Aenean a rutrum magna.</p>
-                <div class="button__div">
-                    <a href="" ><button class="knowmore">know More</button></a>
-                    
-                </div>
-
-
-            </div>
-            <div class="row fruitantmarket__right col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                <div class="cardsright">
-                    <div class="card1">
-                        <h4>Fruits and Vegetables</h4>
-                        <p>Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed.</p>
-                        <div class="card1icon">
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                        </div>
+    <section class="container-fluid fruitant__market">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="fruitantmarket__left col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h1>Fruitant market - Fruits, Vegetables & organic foods</h1>
+                    <p>Curabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est. Quisque ut lectus consequat, venenatis eros et, commodo risus. Nullam sit amet laoreet elit. Suspendisse non magna a velit imperdiet efficitur. Morbi faucibus egestas velit sed ultricies. Ut sollicitudin sollicitudin urna, vel blandit est viverra in. Aenean a rutrum magna. Donec suscipit vulputate fermentum. Vestibulum ac metus in mi rutrum laoreet.</p>
+    
+                    <p>In non nisi quis metus tempor efficitur a ut odio. Phasellus posuere tellus in interdum venenatis. Curabitur aliquam quam dictum est vestibulum aliquet, viverra in. Aenean a rutrum magna.</p>
+                    <div class="button__div">
+                        <a href="" ><button class="knowmore">know More</button></a>
                         
                     </div>
+    
+    
                 </div>
-
+                <div class="row  fruitantmarket__right col-lg-6 col-md-12 col-sm-12 col-xs-12" id="fruitantmap">
+                    
+                    
+    
+                </div>
+    
             </div>
-
         </div>
 
     </section>
@@ -111,8 +105,9 @@
         <p>Aenean a rutrum magna. Donec suscipit vulputate fermentum. Vestibulum ac metus in mi rutrum laoreet lorem dolor set amet, donec rutrum dolor ipsum sed.</p>
         <img src="./image/all.jpg" alt="">
     </section>
-    <section class="container subscribe">
-        <h1>Subscribe Newsletter</h1>
+    <section class="container-fluid subscribe">
+       <div class="container sub">
+            <h1>Subscribe Newsletter</h1>
         <p>In non nisi quis metus tempor efficitur a ut odio. Phasellus posuere tellus in interdum venenatis. Curabitur aliquam quam dictum est vestibulum aliquet.</p>
         <div class="row inputbox">
             <div class="input">
@@ -123,7 +118,61 @@
             </div>
 
         </div>
+       </div>
     </section>
+    <footer class=" container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="contactinfo">
+                    <div class="row ">
+                        <div class="locationicon">
+    
+                        </div>
+                        <div class="locationtext">
+                            <p> Grosvenor Gardens House, 35-37 Grosvenor Gardens, Westminster, London SW1W 0DH, United Kingdom</p>
+                        </div>
+                        <div class="locationicon">
+    
+                        </div>
+                        <div class="locationtext">
+                            <p> Phone: <a href="">+(21) 255 999 8888</a></p>                        
+                        </div>
+                        <div class="locationicon">
+    
+                        </div>
+                        <div class="locationtext">
+                            <p>Mobile: <a href="">+(21) 255 999 8899</a></p>
+    
+                        </div>
+                        <div class="locationicon">
+    
+                        </div>
+                        <div class="locationtext">
+                            <p>Mail: <a href="">vegetables@mail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="latestnews">
+                    <div class="row">
+                        <div class="img">
+                            <img src="./image/e1.png" alt="">                            
+                        </div>
+                        <div class="text">
+                            <p>Vegetables and organic fruits
+                                Nov 2nd, 2019</p>
+                        </div>
+                    </div>                 
+
+                </div>
+                <div class="usefullinks">
+
+                </div>
+                <div class="quotation">
+
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <script>
     var cards=[
@@ -164,5 +213,49 @@
     })
     var mappedcard = mappedcards.join(" ")
     document.getElementById("dynamic__cards").innerHTML=mappedcard
+
+    var fruitantMarketCard = [
+        {
+            heading:"Fruits and Vegetables",
+            para:"Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed."
+        },
+        {
+            heading:"Fruits and Vegetables",
+            para:"Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed."
+        },
+        {
+            heading:"Fruits and Vegetables",
+            para:"Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed."
+        },
+        {
+            heading:"Fruits and Vegetables",
+            para:"Vivamus a ligula quam. Ut blandit eu leo non suscipit. Duis feugiat tortor sed."
+        }
+    ]
+
+var fruitantMapped = fruitantMarketCard.map((e)=>{
+    return(
+    `<div class="cardsright col-lg-6">
+                        <a href="">
+                            <div class="card__div">
+                                <div class="cards">
+                                    <h4>${e.heading}</h4>
+                                <p>${e.para}</p>
+                                <div class="cardsicon innericon">
+                                    <!-- <a href="" class="innericon"> -->
+                                        <i class="fa fa-check " aria-hidden="true"></i>
+                                    <!-- </a> -->
+                                </div>
+                                </div>
+                                
+                            </div>
+                        </a>
+                    </div>`
+    )
+})
+var Fruitant =fruitantMapped.join(" ")
+document.getElementById("fruitantmap").innerHTML=Fruitant
+
+    
 </script>
 </html>
